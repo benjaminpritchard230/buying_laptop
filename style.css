@@ -1,0 +1,27 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+body::after {
+  display: block;
+  content: '';
+  height: 60px;
+}
